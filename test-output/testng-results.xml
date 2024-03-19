@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T10:52:12 IST" name="Default suite" finished-at="2024-03-19T10:52:25 IST" duration-ms="12590">
+    <groups>
+    </groups>
+    <test started-at="2024-03-19T10:52:12 IST" name="Default test" finished-at="2024-03-19T10:52:25 IST" duration-ms="12590">
+      <class name="com.surya.base.MyProject">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:12 IST" name="setUp" finished-at="2024-03-19T10:52:15 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkText()[pri:0, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:16 IST" name="linkText" finished-at="2024-03-19T10:52:17 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkText -->
+        <test-method signature="userName()[pri:1, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:17 IST" name="userName" finished-at="2024-03-19T10:52:17 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName -->
+        <test-method signature="passWord()[pri:2, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:17 IST" name="passWord" finished-at="2024-03-19T10:52:17 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passWord -->
+        <test-method signature="comments()[pri:3, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:17 IST" name="comments" finished-at="2024-03-19T10:52:18 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comments -->
+        <test-method signature="commentsAgain()[pri:4, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:18 IST" name="commentsAgain" finished-at="2024-03-19T10:52:18 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentsAgain -->
+        <test-method signature="checkbox()[pri:5, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:18 IST" name="checkbox" finished-at="2024-03-19T10:52:18 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox -->
+        <test-method signature="radiobox()[pri:6, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:18 IST" name="radiobox" finished-at="2024-03-19T10:52:18 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobox -->
+        <test-method signature="dropDown()[pri:7, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:18 IST" name="dropDown" finished-at="2024-03-19T10:52:18 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method signature="selectDropDown()[pri:8, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:18 IST" name="selectDropDown" finished-at="2024-03-19T10:52:24 IST" duration-ms="5438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropDown -->
+        <test-method signature="submit()[pri:9, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:24 IST" name="submit" finished-at="2024-03-19T10:52:25 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method signature="childWindowValidation()[pri:10, instance:com.surya.base.MyProject@4c402120]" started-at="2024-03-19T10:52:25 IST" name="childWindowValidation" finished-at="2024-03-19T10:52:25 IST" duration-ms="118" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [You submittd a form. The details below show the values you entered for processing.] but found [You submitted a form. The details below show the values you entered for processing.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [You submittd a form. The details below show the values you entered for processing.] but found [You submitted a form. The details below show the values you entered for processing.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.surya.base.MyProject.childWindowValidation(MyProject.java:153)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- childWindowValidation -->
+      </class> <!-- com.surya.base.MyProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
